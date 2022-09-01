@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./dist/output.css">
+
+</head>
+
+<body class="min-h-screen flex items-center justify-center flex-col mx-auto bg-lightGray">
+  <main class="max-w-2xl bg-white rounded-lg shadow-lg truncate whitespace-normal mx-4 my-4">
+    <div class="text-left  p-8 pb-6 mb-4">
+      <h1 class="text-xl font-bold text-cyan mb-4">Join our community</h1>
+      <div class="text-base font-bold text-brightYellow mb-2">30-day, hassle-free money back guarantee</div>
+      <p class="text-base text-grayishBlue">Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.</p>
+    </div>
+
+
+    <div class="flex flex-col sm:grid sm: grid-cols-2">
+      <div class="bg-cyan p-8">
+        <h2 class="text-white font-bold text-lg mb-4">Monthly Subscription</h2>
+        <div class="text-base flex text-gray-300 opacity-70 items-center mb-2"><span
+            class="text-4xl font-bold text-white opacity-100 mr-2">$29</span> per
+          month</div>
+        <p class="text-base text-white mb-8"> Full access for less than $1 a day</p>
+        <a href="#" aria-hidden="true"
+          class="w-full block bg-brightYellow text-center text-white py-4 text-lg font-bold rounded-lg shadow-lg"><button>Sign
+            Up</button></a>
+      </div>
+      <div class="bg-lightCyan p-8">
+        <h2 class="text-lg font-bold text-white  mb-4">Why Us</h2>
+        <p class="text-lightGray text-base w-4/5">
+          Tutorials by industry experts
+          Peer & expert code review
+          Coding exercises
+          Access to our GitHub repos
+          Community forum
+          Flashcard decks
+          New videos every week
+        </p>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
